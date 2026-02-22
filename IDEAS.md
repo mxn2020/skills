@@ -244,18 +244,18 @@
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
 | OC-0133 | **Google Calendar Manager** | Create events, check availability, reschedule meetings | ✅ Done |
-| OC-0134 | **Calendly Link Generator** | Create one-off scheduling links with custom constraints | 💡 Idea |
-| OC-0135 | **Meeting Prep Briefer** | Summarize attendees, agenda, and relevant docs before a meeting | 💡 Idea |
-| OC-0136 | **Time Zone Converter** | Resolve scheduling across multiple time zones intelligently | 💡 Idea |
+| OC-0134 | **Calendly Link Generator** | Create one-off scheduling links with custom constraints | ✅ Done |
+| OC-0135 | **Meeting Prep Briefer** | Summarize attendees, agenda, and relevant docs before a meeting | ✅ Done |
+| OC-0136 | **Time Zone Converter** | Resolve scheduling across multiple time zones intelligently | ✅ Done |
 
 ### 5.3 Email & Communication
 
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
-| OC-0137 | **Gmail Inbox Triage** | Summarize, label, and draft replies to unread emails | 💡 Idea |
-| OC-0138 | **Outlook Mail Manager** | Manage emails and calendar within Microsoft 365 | 💡 Idea |
-| OC-0139 | **Email Tone Adjuster** | Rewrite drafts to match a target tone (formal, concise, friendly) | 💡 Idea |
-| OC-0140 | **Follow-up Reminder** | Track sent emails and flag those awaiting a response | 💡 Idea |
+| OC-0137 | **Gmail Inbox Triage** | Summarize, label, and draft replies to unread emails | ✅ Done |
+| OC-0138 | **Outlook Mail Manager** | Manage emails and calendar within Microsoft 365 | ✅ Done |
+| OC-0139 | **Email Tone Adjuster** | Rewrite drafts to match a target tone (formal, concise, friendly) | ✅ Done |
+| OC-0140 | **Follow-up Reminder** | Track sent emails and flag those awaiting a response | ✅ Done |
 
 ---
 
@@ -263,15 +263,15 @@
 
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
-| OC-0141 | **Workout Logger** | Log exercises to Apple Health or Strava via API | 💡 Idea |
-| OC-0142 | **Nutrition Tracker** | Estimate calories from food descriptions or photos | 💡 Idea |
-| OC-0143 | **Sleep Analyst** | Correlate sleep data (Oura/Apple Watch) with productivity metrics | 💡 Idea |
-| OC-0144 | **Meditation Guide** | Generate and narrate personalized guided meditation scripts | 💡 Idea |
-| OC-0145 | **Hydration Reminder** | Smart recurring reminders adjusted for activity level and climate | 💡 Idea |
-| OC-0146 | **Symptom Checker** | Basic triage based on described symptoms (with medical disclaimers) | 💡 Idea |
-| OC-0147 | **Habit Streaks** | Track daily habits such as reading, coding, and running | 💡 Idea |
-| OC-0148 | **HRV & Recovery Scorer** | Parse Garmin/Polar data and recommend training load | 💡 Idea |
-| OC-0149 | **Mental Load Journal** | Prompt daily reflection and surface patterns over time | 💡 Idea |
+| OC-0141 | **Workout Logger** | Log exercises to Apple Health or Strava via API | ✅ Done |
+| OC-0142 | **Nutrition Tracker** | Estimate calories from food descriptions or photos | ✅ Done |
+| OC-0143 | **Sleep Analyst** | Correlate sleep data (Oura/Apple Watch) with productivity metrics | ✅ Done |
+| OC-0144 | **Meditation Guide** | Generate and narrate personalized guided meditation scripts | ✅ Done |
+| OC-0145 | **Hydration Reminder** | Smart recurring reminders adjusted for activity level and climate | ✅ Done |
+| OC-0146 | **Symptom Checker** | Basic triage based on described symptoms (with medical disclaimers) | ✅ Done |
+| OC-0147 | **Habit Streaks** | Track daily habits such as reading, coding, and running | ✅ Done |
+| OC-0148 | **HRV & Recovery Scorer** | Parse Garmin/Polar data and recommend training load | ✅ Done |
+| OC-0149 | **Mental Load Journal** | Prompt daily reflection and surface patterns over time | ✅ Done |
 
 ---
 
@@ -283,10 +283,10 @@
 | OC-0151 | **ArXiv Paper Summarizer** | Fetch and summarize recent research papers by topic | ✅ Done |
 | OC-0152 | **Wikipedia Deep Dive** | Extract structured information and related topics from Wikipedia | ✅ Done |
 | OC-0153 | **Zotero Citation Manager** | Add and organize research references automatically | ✅ Done |
-| OC-0154 | **Obsidian Note Creator** | Write structured markdown notes directly into an Obsidian vault | 💡 Idea |
-| OC-0155 | **Perplexity Query Agent** | Use Perplexity's API for grounded, citation-backed answers | 💡 Idea |
-| OC-0156 | **Patent Search Tool** | Query patent databases for prior art | 💡 Idea |
-| OC-0157 | **News Aggregator** | Pull and summarize headlines by topic from RSS/APIs | 💡 Idea |
+| OC-0154 | **Obsidian Note Creator** | Write structured markdown notes directly into an Obsidian vault | ✅ Done |
+| OC-0155 | **Perplexity Query Agent** | Use Perplexity's API for grounded, citation-backed answers | ✅ Done |
+| OC-0156 | **Patent Search Tool** | Query patent databases for prior art | ✅ Done |
+| OC-0157 | **News Aggregator** | Pull and summarize headlines by topic from RSS/APIs | ✅ Done |
 
 ---
 
@@ -294,13 +294,13 @@
 
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
-| OC-0158 | **Crypto Wallet Watcher** | Monitor addresses for incoming/outgoing transactions | 💡 Idea |
-| OC-0159 | **Stock Price Fetcher** | Get real-time quotes, charts, and earnings data | 💡 Idea |
-| OC-0160 | **Budget Tracker** | Parse transactions and categorize spending automatically | 💡 Idea |
-| OC-0161 | **Invoice Generator** | Create and send PDF invoices from structured data | 💡 Idea |
-| OC-0162 | **CRM Data Puller** | Fetch deals and contact data from HubSpot or Salesforce | 💡 Idea |
-| OC-0163 | **Google Sheets Analyst** | Read, write, and analyze data in spreadsheets | 💡 Idea |
-| OC-0164 | **Financial Report Summarizer** | Parse 10-K/10-Q filings and extract key metrics | 💡 Idea |
+| OC-0158 | **Crypto Wallet Watcher** | Monitor addresses for incoming/outgoing transactions | ✅ Done |
+| OC-0159 | **Stock Price Fetcher** | Get real-time quotes, charts, and earnings data | ✅ Done |
+| OC-0160 | **Budget Tracker** | Parse transactions and categorize spending automatically | ✅ Done |
+| OC-0161 | **Invoice Generator** | Create and send PDF invoices from structured data | ✅ Done |
+| OC-0162 | **CRM Data Puller** | Fetch deals and contact data from HubSpot or Salesforce | ✅ Done |
+| OC-0163 | **Google Sheets Analyst** | Read, write, and analyze data in spreadsheets | ✅ Done |
+| OC-0164 | **Financial Report Summarizer** | Parse 10-K/10-Q filings and extract key metrics | ✅ Done |
 
 ---
 
@@ -310,9 +310,9 @@
 | :--- | :--- | :--- | :--- |
 | OC-0165 | **Home Assistant Controller** | Voice-command lights, thermostat, locks, and scenes | ✅ Done |
 | OC-0166 | **MQTT Publisher** | Send messages to IoT device topics on any broker | ✅ Done |
-| OC-0167 | **Energy Monitor** | Track and report home energy consumption trends | 💡 Idea |
-| OC-0168 | **Camera Feed Analyzer** | Describe or detect objects in a home camera snapshot | 💡 Idea |
-| OC-0169 | **Smart Appliance Scheduler** | Schedule dishwashers, EV charging, etc. for off-peak hours | 💡 Idea |
+| OC-0167 | **Energy Monitor** | Track and report home energy consumption trends | ✅ Done |
+| OC-0168 | **Camera Feed Analyzer** | Describe or detect objects in a home camera snapshot | ✅ Done |
+| OC-0169 | **Smart Appliance Scheduler** | Schedule dishwashers, EV charging, etc. for off-peak hours | ✅ Done |
 
 ---
 
@@ -320,14 +320,14 @@
 
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
-| OC-0170 | **Recipe Generator & Shopper** | Create a meal plan and export ingredients to Instacart or a shopping list | 💡 Idea |
-| OC-0171 | **Legal Document Scanner** | Summarize TOS changes, lease agreements, and contracts | 💡 Idea |
-| OC-0172 | **Dream Journal** | Log and interpret dreams using symbolic analysis | 💡 Idea |
-| OC-0173 | **Travel Planner** | Build multi-day itineraries with flights, hotels, and activities | 💡 Idea |
-| OC-0174 | **Gift Recommender** | Suggest personalized gifts based on recipient interests and budget | 💡 Idea |
-| OC-0175 | **Language Tutor** | Run interactive vocabulary drills and grammar corrections | 💡 Idea |
-| OC-0176 | **Debate Coach** | Argue both sides of a topic and score the strength of arguments | 💡 Idea |
-| OC-0177 | **Code Explainer** | Narrate what a code snippet does in plain English for non-developers | 💡 Idea |
+| OC-0170 | **Recipe Generator & Shopper** | Create a meal plan and export ingredients to Instacart or a shopping list | ✅ Done |
+| OC-0171 | **Legal Document Scanner** | Summarize TOS changes, lease agreements, and contracts | ✅ Done |
+| OC-0172 | **Dream Journal** | Log and interpret dreams using symbolic analysis | ✅ Done |
+| OC-0173 | **Travel Planner** | Build multi-day itineraries with flights, hotels, and activities | ✅ Done |
+| OC-0174 | **Gift Recommender** | Suggest personalized gifts based on recipient interests and budget | ✅ Done |
+| OC-0175 | **Language Tutor** | Run interactive vocabulary drills and grammar corrections | ✅ Done |
+| OC-0176 | **Debate Coach** | Argue both sides of a topic and score the strength of arguments | ✅ Done |
+| OC-0177 | **Code Explainer** | Narrate what a code snippet does in plain English for non-developers | ✅ Done |
 
 ---
 
@@ -335,11 +335,11 @@
 
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
-| OC-0178 | **Skill Runner CLI** | A unified CLI to execute any skill with defined inputs (meta-runner) | 💡 Idea |
-| OC-0179 | **Mock Environment Generator** | Create sandboxed temp directories/files for safe file operation testing | 💡 Idea |
-| OC-0180 | **API Response Mocker** | Intercept outgoing API calls and return fixture data for offline testing | 💡 Idea |
-| OC-0181 | **Regression Suite Runner** | Execute a predefined set of skill interactions and diff output against golden master | 💡 Idea |
-| OC-0182 | **Skill Linter** | Validate `SKILL.md` structure and ensure scripts follow OpenClaw conventions | 💡 Idea |
-| OC-0183 | **Chaos Monkey for Skills** | Randomly inject network failures or bad inputs to test skill resilience | 💡 Idea |
-| OC-0184 | **Performance Load Tester** | Run skills in parallel to test concurrency and resource usage bounds | 💡 Idea |
-| OC-0185 | **Security Compliance Scanner** | Check skill scripts for hardcoded secrets or unsafe shell execution | 💡 Idea |
+| OC-0178 | **Skill Runner CLI** | A unified CLI to execute any skill with defined inputs (meta-runner) | ✅ Done |
+| OC-0179 | **Mock Environment Generator** | Create sandboxed temp directories/files for safe file operation testing | ✅ Done |
+| OC-0180 | **API Response Mocker** | Intercept outgoing API calls and return fixture data for offline testing | ✅ Done |
+| OC-0181 | **Regression Suite Runner** | Execute a predefined set of skill interactions and diff output against golden master | ✅ Done |
+| OC-0182 | **Skill Linter** | Validate `SKILL.md` structure and ensure scripts follow OpenClaw conventions | ✅ Done |
+| OC-0183 | **Chaos Monkey for Skills** | Randomly inject network failures or bad inputs to test skill resilience | ✅ Done |
+| OC-0184 | **Performance Load Tester** | Run skills in parallel to test concurrency and resource usage bounds | ✅ Done |
+| OC-0185 | **Security Compliance Scanner** | Check skill scripts for hardcoded secrets or unsafe shell execution | ✅ Done |

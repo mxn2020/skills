@@ -20,19 +20,19 @@ Send events to serverless Kafka topics and consume messages via the Upstash Kafk
 
 ```bash
 # List topics
-python3 skills/system-integrations/database-storage/upstash-kafka/scripts/manage.py list-topics
+python3 skills/cloud/data/databases/upstash-kafka/scripts/manage.py list-topics
 
 # Produce a message
-python3 skills/system-integrations/database-storage/upstash-kafka/scripts/manage.py produce --topic events --message '{"type":"deploy","env":"production"}'
+python3 skills/cloud/data/databases/upstash-kafka/scripts/manage.py produce --topic events --message '{"type":"deploy","env":"production"}'
 
 # Consume messages
-python3 skills/system-integrations/database-storage/upstash-kafka/scripts/manage.py consume --topic events --group my-consumer --instance inst-1
+python3 skills/cloud/data/databases/upstash-kafka/scripts/manage.py consume --topic events --group my-consumer --instance inst-1
 
 # Create a topic
-python3 skills/system-integrations/database-storage/upstash-kafka/scripts/manage.py create-topic --name events --partitions 3
+python3 skills/cloud/data/databases/upstash-kafka/scripts/manage.py create-topic --name events --partitions 3
 
 # Get topic details
-python3 skills/system-integrations/database-storage/upstash-kafka/scripts/manage.py get-topic --topic events
+python3 skills/cloud/data/databases/upstash-kafka/scripts/manage.py get-topic --topic events
 ```
 
 ## Commands & Parameters

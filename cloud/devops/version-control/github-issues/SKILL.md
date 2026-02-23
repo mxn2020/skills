@@ -21,16 +21,16 @@ Automate GitHub issue management including labeling, triaging, closing, and prio
 
 ```bash
 # List open issues
-python3 skills/system-integrations/version-control/github-issues/scripts/issues.py list-issues --repo owner/repo
+python3 skills/cloud/devops/version-control/github-issues/scripts/issues.py list-issues --repo owner/repo
 
 # Create a new issue
-python3 skills/system-integrations/version-control/github-issues/scripts/issues.py create-issue --repo owner/repo --title "Bug: login fails" --body "Steps to reproduce..."
+python3 skills/cloud/devops/version-control/github-issues/scripts/issues.py create-issue --repo owner/repo --title "Bug: login fails" --body "Steps to reproduce..."
 
 # Auto-triage issues
-python3 skills/system-integrations/version-control/github-issues/scripts/issues.py triage --repo owner/repo
+python3 skills/cloud/devops/version-control/github-issues/scripts/issues.py triage --repo owner/repo
 
 # Prioritize issues
-python3 skills/system-integrations/version-control/github-issues/scripts/issues.py prioritize --repo owner/repo
+python3 skills/cloud/devops/version-control/github-issues/scripts/issues.py prioritize --repo owner/repo
 ```
 
 ## Commands & Parameters

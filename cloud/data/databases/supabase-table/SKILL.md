@@ -20,19 +20,19 @@ Run safe read/write operations on Supabase Postgres tables via the REST API.
 
 ```bash
 # List all tables
-python3 skills/system-integrations/database-storage/supabase-table/scripts/manage.py list-tables
+python3 skills/cloud/data/databases/supabase-table/scripts/manage.py list-tables
 
 # Query rows
-python3 skills/system-integrations/database-storage/supabase-table/scripts/manage.py query --table users --select "id,name,email" --filter "status=eq.active" --limit 10
+python3 skills/cloud/data/databases/supabase-table/scripts/manage.py query --table users --select "id,name,email" --filter "status=eq.active" --limit 10
 
 # Insert a row
-python3 skills/system-integrations/database-storage/supabase-table/scripts/manage.py insert --table users --data '{"name":"Alice","email":"alice@example.com"}'
+python3 skills/cloud/data/databases/supabase-table/scripts/manage.py insert --table users --data '{"name":"Alice","email":"alice@example.com"}'
 
 # Update rows
-python3 skills/system-integrations/database-storage/supabase-table/scripts/manage.py update --table users --filter "id=eq.5" --data '{"status":"inactive"}'
+python3 skills/cloud/data/databases/supabase-table/scripts/manage.py update --table users --filter "id=eq.5" --data '{"status":"inactive"}'
 
 # Delete rows
-python3 skills/system-integrations/database-storage/supabase-table/scripts/manage.py delete --table users --filter "status=eq.inactive"
+python3 skills/cloud/data/databases/supabase-table/scripts/manage.py delete --table users --filter "status=eq.inactive"
 ```
 
 ## Commands & Parameters

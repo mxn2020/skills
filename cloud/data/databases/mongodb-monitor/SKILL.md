@@ -20,19 +20,19 @@ Check connections, metrics, and slow queries on MongoDB Atlas clusters.
 
 ```bash
 # List clusters
-python3 skills/system-integrations/database-storage/mongodb-monitor/scripts/manage.py list-clusters
+python3 skills/cloud/data/databases/mongodb-monitor/scripts/manage.py list-clusters
 
 # Get cluster metrics
-python3 skills/system-integrations/database-storage/mongodb-monitor/scripts/manage.py get-metrics --cluster myCluster --period PT1H
+python3 skills/cloud/data/databases/mongodb-monitor/scripts/manage.py get-metrics --cluster myCluster --period PT1H
 
 # Find slow queries
-python3 skills/system-integrations/database-storage/mongodb-monitor/scripts/manage.py slow-queries --cluster myCluster
+python3 skills/cloud/data/databases/mongodb-monitor/scripts/manage.py slow-queries --cluster myCluster
 
 # List databases
-python3 skills/system-integrations/database-storage/mongodb-monitor/scripts/manage.py list-databases --cluster myCluster
+python3 skills/cloud/data/databases/mongodb-monitor/scripts/manage.py list-databases --cluster myCluster
 
 # Get alerts
-python3 skills/system-integrations/database-storage/mongodb-monitor/scripts/manage.py get-alerts
+python3 skills/cloud/data/databases/mongodb-monitor/scripts/manage.py get-alerts
 ```
 
 ## Commands & Parameters

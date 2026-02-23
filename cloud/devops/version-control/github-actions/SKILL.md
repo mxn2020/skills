@@ -20,19 +20,19 @@ Trigger, monitor, and manage GitHub Actions workflows from agent commands.
 
 ```bash
 # List workflows
-python3 skills/system-integrations/version-control/github-actions/scripts/actions.py list-workflows --repo owner/repo
+python3 skills/cloud/devops/version-control/github-actions/scripts/actions.py list-workflows --repo owner/repo
 
 # Trigger a workflow
-python3 skills/system-integrations/version-control/github-actions/scripts/actions.py trigger-workflow --repo owner/repo --workflow ci.yml --ref main
+python3 skills/cloud/devops/version-control/github-actions/scripts/actions.py trigger-workflow --repo owner/repo --workflow ci.yml --ref main
 
 # Get run status
-python3 skills/system-integrations/version-control/github-actions/scripts/actions.py get-run-status --repo owner/repo --run-id 12345
+python3 skills/cloud/devops/version-control/github-actions/scripts/actions.py get-run-status --repo owner/repo --run-id 12345
 
 # List recent runs
-python3 skills/system-integrations/version-control/github-actions/scripts/actions.py list-runs --repo owner/repo
+python3 skills/cloud/devops/version-control/github-actions/scripts/actions.py list-runs --repo owner/repo
 
 # Cancel a run
-python3 skills/system-integrations/version-control/github-actions/scripts/actions.py cancel-run --repo owner/repo --run-id 12345
+python3 skills/cloud/devops/version-control/github-actions/scripts/actions.py cancel-run --repo owner/repo --run-id 12345
 ```
 
 ## Commands & Parameters

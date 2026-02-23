@@ -23,13 +23,13 @@ Create, list, delete GitHub repositories and manage collaborator access from the
 
 ```bash
 # List your repositories
-python3 skills/system-integrations/version-control/github-repo-manager/scripts/repo_manager.py list-repos
+python3 skills/cloud/devops/version-control/github-repo-manager/scripts/repo_manager.py list-repos
 
 # Create a new private repo
-python3 skills/system-integrations/version-control/github-repo-manager/scripts/repo_manager.py create-repo --name my-project --private --description "My new project"
+python3 skills/cloud/devops/version-control/github-repo-manager/scripts/repo_manager.py create-repo --name my-project --private --description "My new project"
 
 # Add a collaborator
-python3 skills/system-integrations/version-control/github-repo-manager/scripts/repo_manager.py add-collaborator --repo owner/my-project --user johndoe --permission write
+python3 skills/cloud/devops/version-control/github-repo-manager/scripts/repo_manager.py add-collaborator --repo owner/my-project --user johndoe --permission write
 ```
 
 ## Commands & Parameters

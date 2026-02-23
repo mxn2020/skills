@@ -20,19 +20,19 @@ Manage SQLite databases at the edge using the Turso Platform API.
 
 ```bash
 # List databases
-python3 skills/system-integrations/database-storage/turso-edge-db/scripts/manage.py list-databases
+python3 skills/cloud/data/databases/turso-edge-db/scripts/manage.py list-databases
 
 # Create a database
-python3 skills/system-integrations/database-storage/turso-edge-db/scripts/manage.py create-db --name my-edge-db --group default
+python3 skills/cloud/data/databases/turso-edge-db/scripts/manage.py create-db --name my-edge-db --group default
 
 # Execute SQL
-python3 skills/system-integrations/database-storage/turso-edge-db/scripts/manage.py shell --database my-edge-db --sql "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT)"
+python3 skills/cloud/data/databases/turso-edge-db/scripts/manage.py shell --database my-edge-db --sql "CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT)"
 
 # Get stats
-python3 skills/system-integrations/database-storage/turso-edge-db/scripts/manage.py get-stats --database my-edge-db
+python3 skills/cloud/data/databases/turso-edge-db/scripts/manage.py get-stats --database my-edge-db
 
 # Delete a database
-python3 skills/system-integrations/database-storage/turso-edge-db/scripts/manage.py delete-db --database my-edge-db
+python3 skills/cloud/data/databases/turso-edge-db/scripts/manage.py delete-db --database my-edge-db
 ```
 
 ## Commands & Parameters

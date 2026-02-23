@@ -18,22 +18,22 @@ Fetch, refund, or fulfill orders, list products, and browse customers through th
 
 ```bash
 # List recent orders
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py list-orders
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py list-orders
 
 # Get order details
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py get-order 1234567890
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py get-order 1234567890
 
 # Refund an order
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py refund 1234567890
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py refund 1234567890
 
 # Fulfill an order
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py fulfill 1234567890 --tracking-number "1Z999AA10123456784"
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py fulfill 1234567890 --tracking-number "1Z999AA10123456784"
 
 # List products
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py list-products
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py list-products
 
 # List customers
-python3 skills/system-integrations/commerce-payments/shopify-orders/scripts/manage.py list-customers
+python3 skills/cloud/commerce/payments/shopify-orders/scripts/manage.py list-customers
 ```
 
 ## Commands & Parameters

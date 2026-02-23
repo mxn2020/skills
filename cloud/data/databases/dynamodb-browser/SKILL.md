@@ -21,22 +21,22 @@ Query and manage NoSQL data in AWS DynamoDB efficiently using the AWS CLI.
 
 ```bash
 # List tables
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py list-tables
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py list-tables
 
 # Scan a table
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py scan --table Users --limit 10
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py scan --table Users --limit 10
 
 # Query by partition key
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py query --table Users --key-condition "userId = :uid" --values '{":uid":{"S":"user-123"}}'
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py query --table Users --key-condition "userId = :uid" --values '{":uid":{"S":"user-123"}}'
 
 # Get a specific item
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py get-item --table Users --key '{"userId":{"S":"user-123"}}'
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py get-item --table Users --key '{"userId":{"S":"user-123"}}'
 
 # Put an item
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py put-item --table Users --item '{"userId":{"S":"user-456"},"name":{"S":"Alice"}}'
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py put-item --table Users --item '{"userId":{"S":"user-456"},"name":{"S":"Alice"}}'
 
 # Delete an item
-python3 skills/system-integrations/database-storage/dynamodb-browser/scripts/manage.py delete-item --table Users --key '{"userId":{"S":"user-123"}}'
+python3 skills/cloud/data/databases/dynamodb-browser/scripts/manage.py delete-item --table Users --key '{"userId":{"S":"user-123"}}'
 ```
 
 ## Commands & Parameters

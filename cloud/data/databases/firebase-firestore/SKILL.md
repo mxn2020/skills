@@ -20,19 +20,19 @@ Read and write documents in Google Cloud Firestore via the REST API.
 
 ```bash
 # List collections
-python3 skills/system-integrations/database-storage/firebase-firestore/scripts/manage.py list-collections --project my-project
+python3 skills/cloud/data/databases/firebase-firestore/scripts/manage.py list-collections --project my-project
 
 # Get a document
-python3 skills/system-integrations/database-storage/firebase-firestore/scripts/manage.py get-doc --project my-project --collection users --doc user-123
+python3 skills/cloud/data/databases/firebase-firestore/scripts/manage.py get-doc --project my-project --collection users --doc user-123
 
 # Set a document
-python3 skills/system-integrations/database-storage/firebase-firestore/scripts/manage.py set-doc --project my-project --collection users --doc user-456 --data '{"name":"Alice","role":"admin"}'
+python3 skills/cloud/data/databases/firebase-firestore/scripts/manage.py set-doc --project my-project --collection users --doc user-456 --data '{"name":"Alice","role":"admin"}'
 
 # Delete a document
-python3 skills/system-integrations/database-storage/firebase-firestore/scripts/manage.py delete-doc --project my-project --collection users --doc user-123
+python3 skills/cloud/data/databases/firebase-firestore/scripts/manage.py delete-doc --project my-project --collection users --doc user-123
 
 # Query a collection
-python3 skills/system-integrations/database-storage/firebase-firestore/scripts/manage.py query --project my-project --collection users --field role --op EQUAL --value admin
+python3 skills/cloud/data/databases/firebase-firestore/scripts/manage.py query --project my-project --collection users --field role --op EQUAL --value admin
 ```
 
 ## Commands & Parameters

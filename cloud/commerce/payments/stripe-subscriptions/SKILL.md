@@ -18,22 +18,22 @@ Cancel or refund subscriptions, list products and prices through the Stripe API.
 
 ```bash
 # List active subscriptions
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py list-subscriptions
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py list-subscriptions
 
 # Cancel a subscription immediately
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py cancel sub_1234 --immediate
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py cancel sub_1234 --immediate
 
 # Refund the latest invoice on a subscription
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py refund sub_1234
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py refund sub_1234
 
 # List all products
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py list-products
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py list-products
 
 # Create a product
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py create-product "Pro Plan"
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py create-product "Pro Plan"
 
 # List prices
-python3 skills/system-integrations/commerce-payments/stripe-subscriptions/scripts/manage.py list-prices
+python3 skills/cloud/commerce/payments/stripe-subscriptions/scripts/manage.py list-prices
 ```
 
 ## Commands & Parameters

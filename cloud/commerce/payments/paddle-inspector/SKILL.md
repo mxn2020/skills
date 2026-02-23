@@ -17,22 +17,22 @@ Audit billing history, manage subscriptions (cancel, pause, resume), and list tr
 
 ```bash
 # List subscriptions
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py list-subscriptions
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py list-subscriptions
 
 # Get subscription details
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py get-subscription sub_01h1234
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py get-subscription sub_01h1234
 
 # Cancel a subscription
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py cancel sub_01h1234
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py cancel sub_01h1234
 
 # Pause a subscription
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py pause sub_01h1234
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py pause sub_01h1234
 
 # Resume a paused subscription
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py resume sub_01h1234
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py resume sub_01h1234
 
 # List transactions
-python3 skills/system-integrations/commerce-payments/paddle-inspector/scripts/manage.py list-transactions
+python3 skills/cloud/commerce/payments/paddle-inspector/scripts/manage.py list-transactions
 ```
 
 ## Commands & Parameters

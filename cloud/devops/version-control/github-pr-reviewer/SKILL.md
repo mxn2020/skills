@@ -19,16 +19,16 @@ Automatically review pull requests, check diffs against style conventions, and g
 
 ```bash
 # List open PRs
-python3 skills/system-integrations/version-control/github-pr-reviewer/scripts/reviewer.py list-prs --repo owner/repo
+python3 skills/cloud/devops/version-control/github-pr-reviewer/scripts/reviewer.py list-prs --repo owner/repo
 
 # Review a specific PR
-python3 skills/system-integrations/version-control/github-pr-reviewer/scripts/reviewer.py review-pr --repo owner/repo --pr 42
+python3 skills/cloud/devops/version-control/github-pr-reviewer/scripts/reviewer.py review-pr --repo owner/repo --pr 42
 
 # Check style violations in a PR
-python3 skills/system-integrations/version-control/github-pr-reviewer/scripts/reviewer.py check-style --repo owner/repo --pr 42
+python3 skills/cloud/devops/version-control/github-pr-reviewer/scripts/reviewer.py check-style --repo owner/repo --pr 42
 
 # Summarize a PR diff
-python3 skills/system-integrations/version-control/github-pr-reviewer/scripts/reviewer.py summarize-diff --repo owner/repo --pr 42
+python3 skills/cloud/devops/version-control/github-pr-reviewer/scripts/reviewer.py summarize-diff --repo owner/repo --pr 42
 ```
 
 ## Commands & Parameters

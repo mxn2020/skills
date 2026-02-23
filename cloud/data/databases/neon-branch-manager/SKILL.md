@@ -20,19 +20,19 @@ Create and manage instant Postgres branches on Neon for every pull request or de
 
 ```bash
 # List all branches
-python3 skills/system-integrations/database-storage/neon-branch-manager/scripts/manage.py list-branches
+python3 skills/cloud/data/databases/neon-branch-manager/scripts/manage.py list-branches
 
 # Create a branch for a PR
-python3 skills/system-integrations/database-storage/neon-branch-manager/scripts/manage.py create-branch --name pr-42-preview
+python3 skills/cloud/data/databases/neon-branch-manager/scripts/manage.py create-branch --name pr-42-preview
 
 # Get branch details
-python3 skills/system-integrations/database-storage/neon-branch-manager/scripts/manage.py get-branch --branch-id br-abc123
+python3 skills/cloud/data/databases/neon-branch-manager/scripts/manage.py get-branch --branch-id br-abc123
 
 # Delete a branch
-python3 skills/system-integrations/database-storage/neon-branch-manager/scripts/manage.py delete-branch --branch-id br-abc123
+python3 skills/cloud/data/databases/neon-branch-manager/scripts/manage.py delete-branch --branch-id br-abc123
 
 # List endpoints
-python3 skills/system-integrations/database-storage/neon-branch-manager/scripts/manage.py list-endpoints
+python3 skills/cloud/data/databases/neon-branch-manager/scripts/manage.py list-endpoints
 ```
 
 ## Commands & Parameters

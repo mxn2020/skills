@@ -20,19 +20,19 @@ Execute distributed SQL queries on CockroachDB clusters.
 
 ```bash
 # List databases
-python3 skills/system-integrations/database-storage/cockroachdb-runner/scripts/manage.py list-databases
+python3 skills/cloud/data/databases/cockroachdb-runner/scripts/manage.py list-databases
 
 # List tables
-python3 skills/system-integrations/database-storage/cockroachdb-runner/scripts/manage.py list-tables --database defaultdb
+python3 skills/cloud/data/databases/cockroachdb-runner/scripts/manage.py list-tables --database defaultdb
 
 # Describe a table
-python3 skills/system-integrations/database-storage/cockroachdb-runner/scripts/manage.py describe --table users
+python3 skills/cloud/data/databases/cockroachdb-runner/scripts/manage.py describe --table users
 
 # Run a query
-python3 skills/system-integrations/database-storage/cockroachdb-runner/scripts/manage.py query --sql "SELECT * FROM users LIMIT 10"
+python3 skills/cloud/data/databases/cockroachdb-runner/scripts/manage.py query --sql "SELECT * FROM users LIMIT 10"
 
 # Execute a statement
-python3 skills/system-integrations/database-storage/cockroachdb-runner/scripts/manage.py execute --sql "INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')"
+python3 skills/cloud/data/databases/cockroachdb-runner/scripts/manage.py execute --sql "INSERT INTO users (name, email) VALUES ('Alice', 'alice@example.com')"
 ```
 
 ## Commands & Parameters

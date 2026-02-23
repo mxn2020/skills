@@ -18,13 +18,13 @@ Automatically generate changelogs from git commit history and merged PR titles.
 
 ```bash
 # Generate a changelog
-python3 skills/system-integrations/version-control/changelog-generator/scripts/changelog.py generate --repo owner/repo
+python3 skills/cloud/devops/version-control/changelog-generator/scripts/changelog.py generate --repo owner/repo
 
 # Preview without writing
-python3 skills/system-integrations/version-control/changelog-generator/scripts/changelog.py preview --repo owner/repo --since v1.0.0
+python3 skills/cloud/devops/version-control/changelog-generator/scripts/changelog.py preview --repo owner/repo --since v1.0.0
 
 # Append a new version
-python3 skills/system-integrations/version-control/changelog-generator/scripts/changelog.py append --repo owner/repo --version 1.2.0 --since v1.1.0
+python3 skills/cloud/devops/version-control/changelog-generator/scripts/changelog.py append --repo owner/repo --version 1.2.0 --since v1.1.0
 ```
 
 ## Commands & Parameters

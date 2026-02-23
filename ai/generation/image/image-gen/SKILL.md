@@ -21,10 +21,10 @@ Generate and edit images using NVIDIA's FLUX models.
 
 ```bash
 # Generate an image
-python3 skills/nvidia-image-gen/scripts/generate.py "A cute cat in space"
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A cute cat in space"
 
 # Edit an existing image
-python3 skills/nvidia-image-gen/scripts/generate.py "Add sunglasses" -i photo.jpg -o edited.png
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "Add sunglasses" -i photo.jpg -o edited.png
 ```
 
 ## Parameters
@@ -81,37 +81,37 @@ python3 skills/nvidia-image-gen/scripts/generate.py "Add sunglasses" -i photo.jp
 
 ### Basic Generation
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "A mountain landscape at sunset"
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A mountain landscape at sunset"
 ```
 
 ### Wide Format (16:9)
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "A panoramic beach view" -ar 16:9
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A panoramic beach view" -ar 16:9
 ```
 
 ### Portrait Mode (9:16)
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "A professional headshot" -ar 9:16
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A professional headshot" -ar 9:16
 ```
 
 ### Custom Size
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "A banner image" --width 1344 --height 768
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A banner image" --width 1344 --height 768
 ```
 
 ### Fast Generation
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "Quick sketch of a robot" -m schnell
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "Quick sketch of a robot" -m schnell
 ```
 
 ### Edit an Image
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "Make the background a sunset" -i input.jpg -o output.png
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "Make the background a sunset" -i input.jpg -o output.png
 ```
 
 ### Reproducible Results
 ```bash
-python3 skills/nvidia-image-gen/scripts/generate.py "A robot" --seed 12345
+python3 skills/ai/generation/image/image-gen/scripts/generate.py "A robot" --seed 12345
 ```
 
 ## Output

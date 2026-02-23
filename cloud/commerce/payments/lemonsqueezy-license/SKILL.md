@@ -18,19 +18,19 @@ Verify license keys, manage activations, and browse products through the Lemon S
 
 ```bash
 # Validate a license key
-python3 skills/system-integrations/commerce-payments/lemonsqueezy-license/scripts/manage.py validate-key "ABCD-1234-EFGH-5678"
+python3 skills/cloud/commerce/payments/lemonsqueezy-license/scripts/manage.py validate-key "ABCD-1234-EFGH-5678"
 
 # List all licenses
-python3 skills/system-integrations/commerce-payments/lemonsqueezy-license/scripts/manage.py list-licenses
+python3 skills/cloud/commerce/payments/lemonsqueezy-license/scripts/manage.py list-licenses
 
 # Activate a license
-python3 skills/system-integrations/commerce-payments/lemonsqueezy-license/scripts/manage.py activate "ABCD-1234-EFGH-5678" --instance-name "server-1"
+python3 skills/cloud/commerce/payments/lemonsqueezy-license/scripts/manage.py activate "ABCD-1234-EFGH-5678" --instance-name "server-1"
 
 # Deactivate a license instance
-python3 skills/system-integrations/commerce-payments/lemonsqueezy-license/scripts/manage.py deactivate "ABCD-1234-EFGH-5678" --instance-id "ins_abc123"
+python3 skills/cloud/commerce/payments/lemonsqueezy-license/scripts/manage.py deactivate "ABCD-1234-EFGH-5678" --instance-id "ins_abc123"
 
 # List products
-python3 skills/system-integrations/commerce-payments/lemonsqueezy-license/scripts/manage.py list-products
+python3 skills/cloud/commerce/payments/lemonsqueezy-license/scripts/manage.py list-products
 ```
 
 ## Commands & Parameters

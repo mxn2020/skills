@@ -20,19 +20,19 @@ Treat Airtable as a lightweight CMS/DB for managing structured records.
 
 ```bash
 # List bases
-python3 skills/system-integrations/database-storage/airtable-sync/scripts/manage.py list-bases
+python3 skills/cloud/data/databases/airtable-sync/scripts/manage.py list-bases
 
 # List records
-python3 skills/system-integrations/database-storage/airtable-sync/scripts/manage.py list-records --table Tasks --max-records 10
+python3 skills/cloud/data/databases/airtable-sync/scripts/manage.py list-records --table Tasks --max-records 10
 
 # Create a record
-python3 skills/system-integrations/database-storage/airtable-sync/scripts/manage.py create-record --table Tasks --fields '{"Name":"Fix bug","Status":"Todo"}'
+python3 skills/cloud/data/databases/airtable-sync/scripts/manage.py create-record --table Tasks --fields '{"Name":"Fix bug","Status":"Todo"}'
 
 # Update a record
-python3 skills/system-integrations/database-storage/airtable-sync/scripts/manage.py update-record --table Tasks --record-id rec123 --fields '{"Status":"Done"}'
+python3 skills/cloud/data/databases/airtable-sync/scripts/manage.py update-record --table Tasks --record-id rec123 --fields '{"Status":"Done"}'
 
 # Delete a record
-python3 skills/system-integrations/database-storage/airtable-sync/scripts/manage.py delete-record --table Tasks --record-id rec123
+python3 skills/cloud/data/databases/airtable-sync/scripts/manage.py delete-record --table Tasks --record-id rec123
 ```
 
 ## Commands & Parameters

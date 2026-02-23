@@ -20,19 +20,19 @@ Monitor GitLab CI/CD pipelines, check job statuses, and manage pipeline executio
 
 ```bash
 # List recent pipelines
-python3 skills/system-integrations/version-control/gitlab-pipeline/scripts/pipeline.py list-pipelines --project my-group/my-project
+python3 skills/cloud/devops/version-control/gitlab-pipeline/scripts/pipeline.py list-pipelines --project my-group/my-project
 
 # Get pipeline details
-python3 skills/system-integrations/version-control/gitlab-pipeline/scripts/pipeline.py get-pipeline --project my-group/my-project --pipeline-id 12345
+python3 skills/cloud/devops/version-control/gitlab-pipeline/scripts/pipeline.py get-pipeline --project my-group/my-project --pipeline-id 12345
 
 # List jobs in a pipeline
-python3 skills/system-integrations/version-control/gitlab-pipeline/scripts/pipeline.py get-jobs --project my-group/my-project --pipeline-id 12345
+python3 skills/cloud/devops/version-control/gitlab-pipeline/scripts/pipeline.py get-jobs --project my-group/my-project --pipeline-id 12345
 
 # Retry a failed job
-python3 skills/system-integrations/version-control/gitlab-pipeline/scripts/pipeline.py retry-job --project my-group/my-project --job-id 67890
+python3 skills/cloud/devops/version-control/gitlab-pipeline/scripts/pipeline.py retry-job --project my-group/my-project --job-id 67890
 
 # Cancel a pipeline
-python3 skills/system-integrations/version-control/gitlab-pipeline/scripts/pipeline.py cancel-pipeline --project my-group/my-project --pipeline-id 12345
+python3 skills/cloud/devops/version-control/gitlab-pipeline/scripts/pipeline.py cancel-pipeline --project my-group/my-project --pipeline-id 12345
 ```
 
 ## Commands & Parameters

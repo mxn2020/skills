@@ -18,19 +18,19 @@ Inspect webhook events, manage endpoints, and replay failed deliveries through t
 
 ```bash
 # List recent events
-python3 skills/system-integrations/commerce-payments/stripe-webhooks/scripts/manage.py list-events
+python3 skills/cloud/commerce/payments/stripe-webhooks/scripts/manage.py list-events
 
 # Get details of a specific event
-python3 skills/system-integrations/commerce-payments/stripe-webhooks/scripts/manage.py get-event evt_1234
+python3 skills/cloud/commerce/payments/stripe-webhooks/scripts/manage.py get-event evt_1234
 
 # List webhook endpoints
-python3 skills/system-integrations/commerce-payments/stripe-webhooks/scripts/manage.py list-endpoints
+python3 skills/cloud/commerce/payments/stripe-webhooks/scripts/manage.py list-endpoints
 
 # Create a new endpoint
-python3 skills/system-integrations/commerce-payments/stripe-webhooks/scripts/manage.py create-endpoint https://example.com/webhook --events invoice.paid customer.created
+python3 skills/cloud/commerce/payments/stripe-webhooks/scripts/manage.py create-endpoint https://example.com/webhook --events invoice.paid customer.created
 
 # Replay an event
-python3 skills/system-integrations/commerce-payments/stripe-webhooks/scripts/manage.py replay evt_1234
+python3 skills/cloud/commerce/payments/stripe-webhooks/scripts/manage.py replay evt_1234
 ```
 
 ## Commands & Parameters

@@ -22,25 +22,25 @@ Use serverless Redis for key-value operations via the Upstash REST API.
 
 ```bash
 # Set a key
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py set --key mykey --value "hello world"
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py set --key mykey --value "hello world"
 
 # Get a key
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py get --key mykey
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py get --key mykey
 
 # List keys
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py keys --pattern "user:*"
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py keys --pattern "user:*"
 
 # Set TTL
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py expire --key mykey --seconds 3600
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py expire --key mykey --seconds 3600
 
 # Check TTL
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py ttl --key mykey
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py ttl --key mykey
 
 # Delete a key
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py del --key mykey
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py del --key mykey
 
 # Server info
-python3 skills/system-integrations/database-storage/upstash-redis/scripts/manage.py info
+python3 skills/cloud/data/databases/upstash-redis/scripts/manage.py info
 ```
 
 ## Commands & Parameters

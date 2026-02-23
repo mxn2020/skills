@@ -20,19 +20,19 @@ Manage GitLab merge requests including creation, reviewer assignment, approval, 
 
 ```bash
 # List open MRs
-python3 skills/system-integrations/version-control/gitlab-merge-request/scripts/merge_request.py list-mrs --project my-group/my-project
+python3 skills/cloud/devops/version-control/gitlab-merge-request/scripts/merge_request.py list-mrs --project my-group/my-project
 
 # Create a merge request
-python3 skills/system-integrations/version-control/gitlab-merge-request/scripts/merge_request.py create-mr --project my-group/my-project --source feature-branch --target main --title "Add new feature"
+python3 skills/cloud/devops/version-control/gitlab-merge-request/scripts/merge_request.py create-mr --project my-group/my-project --source feature-branch --target main --title "Add new feature"
 
 # Assign reviewers
-python3 skills/system-integrations/version-control/gitlab-merge-request/scripts/merge_request.py assign-reviewers --project my-group/my-project --mr-id 10 --reviewers user1,user2
+python3 skills/cloud/devops/version-control/gitlab-merge-request/scripts/merge_request.py assign-reviewers --project my-group/my-project --mr-id 10 --reviewers user1,user2
 
 # Approve a MR
-python3 skills/system-integrations/version-control/gitlab-merge-request/scripts/merge_request.py approve-mr --project my-group/my-project --mr-id 10
+python3 skills/cloud/devops/version-control/gitlab-merge-request/scripts/merge_request.py approve-mr --project my-group/my-project --mr-id 10
 
 # Merge a MR
-python3 skills/system-integrations/version-control/gitlab-merge-request/scripts/merge_request.py merge-mr --project my-group/my-project --mr-id 10
+python3 skills/cloud/devops/version-control/gitlab-merge-request/scripts/merge_request.py merge-mr --project my-group/my-project --mr-id 10
 ```
 
 ## Commands & Parameters

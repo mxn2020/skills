@@ -18,19 +18,19 @@ Check in-app purchase status, list offerings and entitlements, and inspect subsc
 
 ```bash
 # Get customer info
-python3 skills/system-integrations/commerce-payments/revenuecat-lookup/scripts/manage.py get-customer app_user_123
+python3 skills/cloud/commerce/payments/revenuecat-lookup/scripts/manage.py get-customer app_user_123
 
 # List offerings
-python3 skills/system-integrations/commerce-payments/revenuecat-lookup/scripts/manage.py list-offerings
+python3 skills/cloud/commerce/payments/revenuecat-lookup/scripts/manage.py list-offerings
 
 # List entitlements for a customer
-python3 skills/system-integrations/commerce-payments/revenuecat-lookup/scripts/manage.py list-entitlements app_user_123
+python3 skills/cloud/commerce/payments/revenuecat-lookup/scripts/manage.py list-entitlements app_user_123
 
 # Get subscription details
-python3 skills/system-integrations/commerce-payments/revenuecat-lookup/scripts/manage.py get-subscription app_user_123 --product-id prod_monthly
+python3 skills/cloud/commerce/payments/revenuecat-lookup/scripts/manage.py get-subscription app_user_123 --product-id prod_monthly
 
 # List products
-python3 skills/system-integrations/commerce-payments/revenuecat-lookup/scripts/manage.py list-products
+python3 skills/cloud/commerce/payments/revenuecat-lookup/scripts/manage.py list-products
 ```
 
 ## Commands & Parameters

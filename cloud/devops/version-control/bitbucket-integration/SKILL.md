@@ -20,19 +20,19 @@ Manage Bitbucket repositories, pull requests, and link Jira tickets to commits.
 
 ```bash
 # List repositories
-python3 skills/system-integrations/version-control/bitbucket-integration/scripts/bitbucket.py list-repos --workspace my-workspace
+python3 skills/cloud/devops/version-control/bitbucket-integration/scripts/bitbucket.py list-repos --workspace my-workspace
 
 # List pull requests
-python3 skills/system-integrations/version-control/bitbucket-integration/scripts/bitbucket.py list-prs --workspace my-workspace --repo my-repo
+python3 skills/cloud/devops/version-control/bitbucket-integration/scripts/bitbucket.py list-prs --workspace my-workspace --repo my-repo
 
 # Get commits
-python3 skills/system-integrations/version-control/bitbucket-integration/scripts/bitbucket.py get-commits --workspace my-workspace --repo my-repo
+python3 skills/cloud/devops/version-control/bitbucket-integration/scripts/bitbucket.py get-commits --workspace my-workspace --repo my-repo
 
 # Link Jira tickets from commits
-python3 skills/system-integrations/version-control/bitbucket-integration/scripts/bitbucket.py link-jira --workspace my-workspace --repo my-repo
+python3 skills/cloud/devops/version-control/bitbucket-integration/scripts/bitbucket.py link-jira --workspace my-workspace --repo my-repo
 
 # List branches
-python3 skills/system-integrations/version-control/bitbucket-integration/scripts/bitbucket.py list-branches --workspace my-workspace --repo my-repo
+python3 skills/cloud/devops/version-control/bitbucket-integration/scripts/bitbucket.py list-branches --workspace my-workspace --repo my-repo
 ```
 
 ## Commands & Parameters

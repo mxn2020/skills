@@ -25,7 +25,7 @@ export default function HomePage() {
                 </h1>
                 <p className="hero-subtitle">
                     A curated directory of {data.totalSkills} production-ready skills for AI agents.
-                    Browse, search, and integrate — just add a folder. Built by Mehdi Nabhani.
+                    Browse, search, and integrate — powerup your agents.
                 </p>
                 <SearchBar />
                 <div className="hero-stats">

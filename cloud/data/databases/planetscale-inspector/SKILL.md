@@ -20,19 +20,19 @@ Check migrations and schema diffs on PlanetScale MySQL databases.
 
 ```bash
 # List databases
-python3 skills/system-integrations/database-storage/planetscale-inspector/scripts/manage.py list-databases
+python3 skills/cloud/data/databases/planetscale-inspector/scripts/manage.py list-databases
 
 # List branches
-python3 skills/system-integrations/database-storage/planetscale-inspector/scripts/manage.py list-branches --database mydb
+python3 skills/cloud/data/databases/planetscale-inspector/scripts/manage.py list-branches --database mydb
 
 # Get schema
-python3 skills/system-integrations/database-storage/planetscale-inspector/scripts/manage.py get-schema --database mydb --branch main
+python3 skills/cloud/data/databases/planetscale-inspector/scripts/manage.py get-schema --database mydb --branch main
 
 # Create a deploy request
-python3 skills/system-integrations/database-storage/planetscale-inspector/scripts/manage.py create-deploy-request --database mydb --branch feature-xyz --into main
+python3 skills/cloud/data/databases/planetscale-inspector/scripts/manage.py create-deploy-request --database mydb --branch feature-xyz --into main
 
 # Diff branches
-python3 skills/system-integrations/database-storage/planetscale-inspector/scripts/manage.py diff --database mydb --branch feature-xyz --base main
+python3 skills/cloud/data/databases/planetscale-inspector/scripts/manage.py diff --database mydb --branch feature-xyz --base main
 ```
 
 ## Commands & Parameters

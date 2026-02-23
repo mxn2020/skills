@@ -21,22 +21,22 @@ Manage heavy media assets in Supabase Storage buckets.
 
 ```bash
 # List all buckets
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py list-buckets
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py list-buckets
 
 # Create a new bucket
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py create-bucket --name media-assets --public
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py create-bucket --name media-assets --public
 
 # List files in a bucket
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py list-files --bucket media-assets
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py list-files --bucket media-assets
 
 # Upload a file
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py upload --bucket media-assets --file ./image.png --path uploads/image.png
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py upload --bucket media-assets --file ./image.png --path uploads/image.png
 
 # Download a file
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py download --bucket media-assets --path uploads/image.png --output ./downloaded.png
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py download --bucket media-assets --path uploads/image.png --output ./downloaded.png
 
 # Delete a file
-python3 skills/system-integrations/database-storage/supabase-bucket/scripts/manage.py delete-file --bucket media-assets --path uploads/image.png
+python3 skills/cloud/data/databases/supabase-bucket/scripts/manage.py delete-file --bucket media-assets --path uploads/image.png
 ```
 
 ## Commands & Parameters

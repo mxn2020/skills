@@ -39,19 +39,22 @@ Skills follow a hierarchical structure:
 
 \`\`\`
 skills/
-├── system-integrations/
-│   ├── version-control/
-│   │   ├── github-repo-manager/
-│   │   │   ├── SKILL.md
-│   │   │   └── scripts/
-│   │   └── github-issues/
-│   └── deployment/
-├── ai-utilities/
-│   ├── rag-manager/
-│   └── token-cost-estimator/
-└── finance/
-    ├── budget-tracker/
-    └── stock-price-fetcher/
+├── cloud/
+│   ├── devops/
+│   │   ├── version-control/
+│   │   │   ├── github-repo-manager/
+│   │   │   │   ├── SKILL.md
+│   │   │   │   └── scripts/
+│   │   │   └── github-issues/
+│   │   └── deployment/
+├── ai/
+│   ├── tools/
+│   │   ├── rag-manager/
+│   │   └── token-cost-estimator/
+└── productivity/
+    └── finance/
+        ├── budget-tracker/
+        └── stock-price-fetcher/
 \`\`\`
 
 Each \`SKILL.md\` contains YAML frontmatter with metadata, followed by documentation:
@@ -101,18 +104,18 @@ Decide which category your skill belongs to. The current categories include:
 
 | Category | Examples |
 |----------|----------|
-| System Integrations | GitHub, AWS, Vercel |
-| AI Utilities | RAG, Token Counter |
+| AI | Image Gen, Voice Processing, RAG |
+| Cloud | GitHub, AWS, Vercel, Stripe |
+| Dev Tools | Skill Linter, Chaos Monkey |
 | Productivity | Todoist, Linear, Gmail |
-| Finance | Budget Tracker, Crypto |
-| Health | Workout Logger, Sleep |
+| Personal | Workout Logger, Smart Home |
 
 ## Step 2: Create the Folder
 
 Create your skill folder inside the appropriate category:
 
 \`\`\`bash
-mkdir -p skills/ai-utilities/my-awesome-skill/scripts
+mkdir -p skills/ai/tools/my-awesome-skill/scripts
 \`\`\`
 
 ## Step 3: Write the SKILL.md

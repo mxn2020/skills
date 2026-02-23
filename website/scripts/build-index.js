@@ -28,20 +28,11 @@ function slugToTitle(slug) {
 
 // Category icons (emoji mapping)
 const CATEGORY_ICONS = {
-  'system-integrations': '🔌',
-  'ai-media-generation': '🎨',
-  'ai-utilities': '🤖',
-  'realtime-audio': '🎙️',
+  'ai': '🤖',
+  'cloud': '☁️',
+  'dev-tools': '🧪',
+  'personal': '🏠',
   'productivity': '📋',
-  'health': '💚',
-  'research': '🔬',
-  'finance': '💰',
-  'smart-home': '🏠',
-  'miscellaneous': '🎲',
-  'skill-testing': '🧪',
-  'github': '🐙',
-  'github-copilot': '🤖',
-  'image-gen': '🖼️',
 };
 
 function buildIndex() {
@@ -64,29 +55,27 @@ function buildIndex() {
     if (IGNORE.has(parts[0])) continue;
 
     // Determine the category hierarchy
-    // e.g. "system-integrations/version-control/github-repo-manager" ->
-    //   category = "system-integrations", subcategory = "version-control", skill folder = "github-repo-manager"
-    // e.g. "ai-utilities/rag-manager" ->
-    //   category = "ai-utilities", subcategory = null, skill folder = "rag-manager"
-    // e.g. "github" (SKILL.md directly in category) ->
-    //   category = "github", subcategory = null, skill = the SKILL.md itself
+    // e.g. "cloud/devops/version-control/github-repo-manager" ->
+    //   category = "cloud", subcategory = "devops/version-control", skill folder = "github-repo-manager"
+    // e.g. "ai/tools/rag-manager" ->
+    //   category = "ai", subcategory = "tools", skill folder = "rag-manager"
 
     let categorySlug, subcategorySlug, skillSlug;
 
     if (parts.length === 1) {
-      // SKILL.md directly in a top-level directory (e.g. "github/SKILL.md")
+      // SKILL.md directly in a top-level directory
       categorySlug = parts[0];
       subcategorySlug = null;
       skillSlug = parts[0];
     } else if (parts.length === 2) {
-      // category/skill (e.g. "ai-utilities/rag-manager")
+      // category/skill (e.g. "ai/rag-manager")
       categorySlug = parts[0];
       subcategorySlug = null;
       skillSlug = parts[1];
     } else if (parts.length >= 3) {
-      // category/subcategory/skill (e.g. "system-integrations/version-control/github-repo-manager")
+      // category/[subcategory...]/skill — join middle parts as subcategory
       categorySlug = parts[0];
-      subcategorySlug = parts[1];
+      subcategorySlug = parts.slice(1, -1).join('/');
       skillSlug = parts[parts.length - 1];
     }
 

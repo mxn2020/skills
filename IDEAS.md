@@ -343,3 +343,54 @@
 | OC-0183 | **Chaos Monkey for Skills** | Randomly inject network failures or bad inputs to test skill resilience | ✅ Done |
 | OC-0184 | **Performance Load Tester** | Run skills in parallel to test concurrency and resource usage bounds | ✅ Done |
 | OC-0185 | **Security Compliance Scanner** | Check skill scripts for hardcoded secrets or unsafe shell execution | ✅ Done |
+
+---
+
+## 12. Cybersecurity & DevSecOps
+
+### 12.1 Vulnerability Scanning & Compliance
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0186 | **Dependency Auditor** | Scan codebases for vulnerable packages and auto-generate PRs to patch them. | ✅ Done |
+| OC-0187 | **Secret Leaks Scanner** | Scan repositories and block commits or notify of sensitive exposed data. | ✅ Done |
+
+### 12.2 Threat Intelligence
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0188 | **CVE Watcher** | Monitor national vulnerability databases and alert on CVEs related to specific technology stacks. | ✅ Done |
+
+---
+
+## 13. E-Learning & Training
+
+### 13.1 Course Creation
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0189 | **Curriculum Generator** | Break down a complex topic into structured modules, lessons, and quizzes. | ✅ Done |
+| OC-0190 | **Flashcard Deck Builder** | Extract key concepts from documents and prepare an Anki-compatible CSV for spaced repetition. | ✅ Done |
+
+### 13.2 Student Interactions
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0191 | **Code Homework Grader** | Run student code against unit tests and provide constructive feedback on style and logic. | ✅ Done |
+
+---
+
+## 14. Local Development & Environments
+
+### 14.1 Container & Dependency Management
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0192 | **Docker Compose Wizard** | Scaffold multi-container development environments from natural language descriptions. | ✅ Done |
+| OC-0193 | **K8s Manifest Builder** | Generate and validate Kubernetes deployments, services, and ingress configurations. | ✅ Done |
+
+### 14.2 Dev Environment Automation
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0194 | **Nix Flake Generator** | Create reproducible development environments and configurations automatically. | ✅ Done |

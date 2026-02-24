@@ -394,3 +394,28 @@
 | ID | Skill | Description | Status |
 | :--- | :--- | :--- | :--- |
 | OC-0194 | **Nix Flake Generator** | Create reproducible development environments and configurations automatically. | ✅ Done |
+
+---
+
+## 15. Developer Tools & Utilities
+
+### 15.1 Code Analysis & Refactoring
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0195 | **AST Query Agent** | Query abstract syntax trees to find anti-patterns or specific code structures programmatically. | ✅ Done |
+| OC-0196 | **Codebase Translator** | Translate modules or entire small codebases from one language to another (e.g., JS to TS). | ✅ Done |
+
+### 15.2 Debugging & Profiling
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0197 | **Flamegraph Analyzer** | Parse and analyze profiling flamegraphs to identify performance bottlenecks. | ✅ Done |
+| OC-0198 | **Core Dump Inspector** | Basic analysis of core dumps or crash logs to extract failure points and stack traces. | ✅ Done |
+
+### 15.3 API Design & Mocking
+
+| ID | Skill | Description | Status |
+| :--- | :--- | :--- | :--- |
+| OC-0199 | **OpenAPI Generator** | Generate comprehensive OpenAPI/Swagger specifications from code or natural language. | ✅ Done |
+| OC-0200 | **GraphQL Schema Builder** | Scaffold GraphQL schemas and basic resolvers from database schemas or descriptions. | ✅ Done |
